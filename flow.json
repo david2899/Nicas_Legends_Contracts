@@ -1,0 +1,23 @@
+{
+	"contracts": {
+		"Nicas_legends": "./contracts/Nicas_legends.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"Nicas_Legends": {
+			"address": "d72041bfb0731080",
+			"key": {
+				"type": "file",
+				"location": "Nicas_Legends.pkey"
+			}
+		},
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "22aa4078b060c21c58e4ecbb948699ef01f82954c98b03d0ae9eaee5463ca393"
+		}
+	}
+}
